@@ -47,7 +47,6 @@ def get_program_enrollment(
     }
     return ProgramEnrollment.objects.get(
         program_uuid=program_uuid, **_remove_none_values(filters)
-
     )
 
 
